@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.6e9ac533.css",
+    "main.js": "/portifolio/static/js/main.c858260b.js",
+    "static/media/receitas.png": "/portifolio/static/media/receitas.a75ed74bde103127b3ec.png",
+    "static/media/calculadora.png": "/portifolio/static/media/calculadora.3bcb7cd2ec59b83c1a38.png",
+    "static/media/Jersey15-Regular.ttf": "/portifolio/static/media/Jersey15-Regular.b20b742582c0c34707d5.ttf",
+    "static/media/milkManagerLarge.png": "/portifolio/static/media/milkManagerLarge.c3bcc068eece680dfe2f.png",
+    "static/media/cadastroRapido.png": "/portifolio/static/media/cadastroRapido.060a1ba9fc1336b6e12a.png",
+    "static/media/react.png": "/portifolio/static/media/react.663544e9e0b1666fbd45.png",
+    "static/media/curriculo.pdf": "/portifolio/static/media/curriculo.20a3f8e73a5331b77724.pdf",
+    "static/media/postgresql.png": "/portifolio/static/media/postgresql.9546c022db004acffd6a.png",
+    "static/media/mysql.png": "/portifolio/static/media/mysql.f2fb8aabd8f447304b4c.png",
+    "static/media/whatsapp.png": "/portifolio/static/media/whatsapp.c339ff504121f060e736.png",
+    "static/media/perfil.jpeg": "/portifolio/static/media/perfil.47636ddcfb456fd83f9b.jpeg",
+    "static/media/js.png": "/portifolio/static/media/js.225c093439f71ab59f3e.png",
+    "static/media/Silkscreen-Regular.ttf": "/portifolio/static/media/Silkscreen-Regular.e7e896209cf39b6670df.ttf",
+    "static/media/localizacao.png": "/portifolio/static/media/localizacao.0c9708c11760ab15cb84.png",
+    "static/media/nodejs.png": "/portifolio/static/media/nodejs.a0eacd55f25b710096fd.png",
+    "static/media/bootstrap.png": "/portifolio/static/media/bootstrap.a656c4114eb29d5c6196.png",
+    "static/media/css.png": "/portifolio/static/media/css.d1ee5f48c762eb2396a1.png",
+    "static/media/html.png": "/portifolio/static/media/html.b0d7d14d784cd8e11873.png",
+    "static/media/linkedin.png": "/portifolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "index.html": "/portifolio/index.html",
+    "main.6e9ac533.css.map": "/portifolio/static/css/main.6e9ac533.css.map",
+    "main.c858260b.js.map": "/portifolio/static/js/main.c858260b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e9ac533.css",
+    "static/js/main.c858260b.js"
+  ]
+}
