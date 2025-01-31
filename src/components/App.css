@@ -449,118 +449,110 @@ html, body {
 }
 
 /*CELULARES*/
-@media (min-width: 480px) and (max-width: 767px){
-  .containers{
-    grid-template-rows: 110vh 140vh 270vh 60vh;
+@media (max-width: 767px) {
+  .containers {
+    grid-template-rows: auto; /* Ajuste dinâmico */
   }
 
-  .header{
-    display: flex;
+  .header {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-left: 0px;
+    text-align: center;
   }
 
-  .perfil{
-    width: 170px;
+  .projetos{
+    padding-bottom: 2%;
+  }
+
+  .perfil {
+    width: 150px; /* Ajustado para menor tamanho */
     height: auto;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 0px;
   }
-
-  .apresentation{
+  
+  .btn{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    font-size: 25px !important;
+    margin-bottom: 3%;
   }
 
-  .apresentationTwo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
+  .apresentation {
+    text-align: center;
+    font-size: 1.5rem; /* Escalável */
+    margin-top: 10px;
   }
 
-  .whoAmI{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    margin-top: 20px;
-    font-size: 10px;
-    margin-right: 0px !important;
-    margin-left: 45px;
-
+  .apresentationTwo {
+    font-size: 1rem;
+    text-align: center;
   }
 
-  .btnFirst{
-    margin-left: 3px;
+  .whoAmI {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
   }
 
-  .marginLeftButton{
-    margin-right: -40px;
+  .btnFirst {
+    margin: 10px auto;
   }
 
-  .hardSkills{
-    row-gap: 10px;
-  }
-
-  .cardHabilidades{
-    width: 200px;
-    height: 150px;
+  .hardSkills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsivo */
     gap: 10px;
   }
 
-  .hablityComportamental{
-    font-size: 11px;
+  .cardHabilidades {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
   }
 
-  .hablityComportamentalText{
-    font-size: 10px;
+  .iconFontAwesome {
+    width: 20px;
   }
 
-  .iconFontAwesome{
-    width: 25px;
+  .tecnologias {
+    padding-top: 5%;
+    text-align: center;
   }
 
-  .tecnologias{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 200px;
-
+  .escudos {
+    width: 40px;
   }
 
-  .escudos{
-    width: 50px;
-  }
-  .tecnology{
-    gap: 9px;
-    border-bottom: 1px solid rgb(88, 85, 85);
+  .tecnology {
+    gap: 10px;
     width: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
-  .cardy{
-    width: 300px;
-    height: 340px;
+  .cardy {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 
-  .card-title{
-    font-size: 25px;
+  .card-title {
+    font-size: 1.2rem;
   }
 
-  .widthLine{
-    
-    width: 75%;
-    margin: auto;
-    margin-top: 10px;
+  .titleContacts {
+    font-size: 1.5rem;
+  }
+
+  .iconsContacts {
+    width: 30px;
+  }
+
+  .subTitleTec {
+    width: 90%;
+    padding-top: 20px;
+
   }
 
   .contacts{
@@ -592,18 +584,8 @@ html, body {
     font-size: 25px;
   }
 
-  .iconsContacts{
-    width: 35px;
-  }
-
-  .hardSkills{
-    grid-template-columns: 200px 200px;
-  }
-  .subTitleTec{
-    border-top: 1px solid rgb(88, 85, 85);
-    width: 90%;
-    padding-top: 30px;
-    margin-top: 10px;
+  .hablityComportamental{
+    font-size: 1rem
   }
 
 }

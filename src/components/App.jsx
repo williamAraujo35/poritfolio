@@ -53,7 +53,7 @@ export default function App() {
 
                 </div>
                 <div className='marginLeftButton'>
-                    <a href="#habilidades" className="btn btn-light me-3 mt-5 text-dark btnFirst">My Skills and Technologies</a>
+                    <a href="#habilidades" className="btn btn-light me-3 mt-5 text-dark">My Skills and Technologies</a>
                     <a href="#projetos" className="btn btn-light me-3 mt-5 text-dark">My Projects</a>
                     <a href="#contatos" className="btn btn-light me-3 mt-5 text-dark">My Contacts</a>
                 </div>
