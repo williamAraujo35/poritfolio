@@ -1,0 +1,609 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+
+@font-face{
+  font-family: 'myFont';
+  src: url('../fonts/Jersey15-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'myFontToText';
+  src: url('../fonts/Silkscreen-Regular.ttf')
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(52, 178, 63) !important;
+}
+
+
+.tituloProjetos{
+  color: black;
+  font-family: 'myFont', sans-serif;
+}
+
+.hablityComportamental{
+  font-family: 'myFontToText', sans-serif;
+}
+
+.hablityComportamentalText{
+  font-family: 'myFontToText', sans-serif;
+  font-size: 11px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  grid-area: header;    
+  background-image: radial-gradient(at 36.57624776780746% 91.79574399168082%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 20.585866066097005% 87.16494954435399%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 72.66502364513264% 12.010892253081384%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 1) 0%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 0) 100%), radial-gradient(at 31.448677278818483% 66.85352464691017%, hsla(0, 0%, 5.88235294117647%, 1) 0%, hsla(0, 0%, 5.88235294117647%, 0) 100%), radial-gradient(at 88.19788829286186% 7.602796789826738%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 23.460893858552655% 96.0662589655312%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 80.40637685167873% 82.8985184480488%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 1) 0%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 0) 100%), radial-gradient(at 90.81248893993632% 61.566153817504656%, hsla(0, 0%, 5.88235294117647%, 1) 0%, hsla(0, 0%, 5.88235294117647%, 0) 100%), radial-gradient(at 17.426746357789536% 21.294234073710918%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 44.2773216650548% 5.116374561768655%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 98.08797313338242% 71.2574667287615%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 1) 0%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 0) 100%), radial-gradient(at 6.266106757698475% 17.01755938898164%, hsla(0, 0%, 5.88235294117647%, 1) 0%, hsla(0, 0%, 5.88235294117647%, 0) 100%);
+}
+.perfil{
+  position: relative;
+  height: 60%;
+  margin: 10px;
+  margin-top: 100px;
+  margin-left: 15%;
+  width: auto;
+  border-radius: 150px;
+  box-shadow: 20px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.apresentation{
+  color: rgb(52, 178, 63);
+  font-size: 60px;
+  margin-top: 50px;
+  margin-right: 7%;
+  font-family: 'myFont', sans-serif;
+}
+
+.apresentationTwo{
+  color: rgb(52, 178, 63);
+  font-size: 25px;
+  font-family: 'myFont', sans-serif;
+}
+
+.whoAmI{
+  font-family: 'myFontToText', sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+
+.tecnologias{
+  grid-area: tecnologias;
+  padding-bottom: 130px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 1px 120px 160px 1px;
+  grid-template-areas: 
+  "title"
+  "hardSkills"
+  "separationSection"
+  "subTitleTec"
+  "tecnology";
+}
+
+.titleTecnologyCore{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid red;
+}
+
+.separationSection{
+  grid-area: separationSection;
+}
+
+.hardSkills{
+  grid-area: hardSkills;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 90px;
+}
+
+.subTitleTec{
+  grid-area: subTitleTec;
+  color: black;
+  font-family: 'myFont', sans-serif;
+  margin-top: 100px;
+}
+
+.title{
+  grid-area: title;
+  color: black;
+  font-family: 'myFont', sans-serif;
+}
+
+
+.tecnology{
+  grid-area: tecnology;
+  margin-top: 10px;
+}
+
+
+.escudos{
+  width: 80px;
+  margin-top: 60px;
+
+}
+
+.widthLine{
+  grid-area: separationSection;
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.widthLineTwo{
+  width: 75%;
+  margin: auto;
+}
+
+.alinhamentoProjetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  row-gap: 100px;
+  column-gap: 280px;
+}
+
+.cardy{
+  width: 450px;
+  height: 420px;
+  overflow: hidden;
+  border: 1px solid rgb(184, 180, 180);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.corText{
+  color: rgb(52, 178, 63);
+}
+
+
+.card:hover{
+  border: 1px solid rgb(52, 178, 63);
+}
+
+.card-img-top{
+  width: 150px;
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  background-image: radial-gradient(at 92.57491356214511% 63.41606033491591%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 86.99151688533715% 65.59705015967067%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 22.834652448216698% 2.9079779192507704%, hsla(0, 0%, 47.05882352941176%, 1) 0%, hsla(0, 0%, 47.05882352941176%, 0) 100%), radial-gradient(at 89.54966561473614% 8.590828658149551%, hsla(0, 0%, 5.88235294117647%, 1) 0%, hsla(0, 0%, 5.88235294117647%, 0) 100%), radial-gradient(at 10.821380645827073% 89.24616567272462%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 71.1125188993226% 56.79283359843497%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 43.93685594521533% 93.56929791787%, hsla(0, 0%, 47.05882352941176%, 1) 0%, hsla(0, 0%, 47.05882352941176%, 0) 100%), radial-gradient(at 76.97795102861771% 46.45415080209068%, hsla(0, 0%, 5.88235294117647%, 1) 0%, hsla(0, 0%, 5.88235294117647%, 0) 100%);
+}
+
+.card-text{
+  font-family: 'myFontToText', sans-serif;
+  font-size: 10px;
+}
+
+.card-title{
+  font-family: 'myFont', sans-serif;
+  color: white !important;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.cardHabilidades{
+  border-radius: 5px;
+  border: 1px solid rgb(52, 178, 63);
+  display: flex;
+  align-items:start;
+  width: 270px;
+  height: 150px;
+  gap: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cardHabilidades:hover{
+  background-color: rgb(52, 178, 63);
+}
+
+.contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 10vh;
+  grid-template-areas: 
+  "titleContacts whatsapp localizacao"
+  "titleContacts linkedin curriculoEmail"
+  "footer footer footer";
+  grid-area: contacts;
+  background-image: radial-gradient(at 27.213162193230822% 24.49919460036629%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 77.42007922425664% 6.423643106980159%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 17.553418810434085% 36.81055170259804%, hsla(0, 0%, 12.941176470588237%, 1) 0%, hsla(0, 0%, 12.941176470588237%, 0) 100%), radial-gradient(at 84.2902866584817% 17.136169703586603%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 1) 0%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 0) 100%), radial-gradient(at 6.878733748577237% 47.16927380102205%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 55.34678216102598% 65.50818979914766%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 26.706738413093923% 57.007805579827654%, hsla(0, 0%, 12.941176470588237%, 1) 0%, hsla(0, 0%, 12.941176470588237%, 0) 100%), radial-gradient(at 94.20369667920016% 74.93079248874648%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 1) 0%, hsla(178.58823529411762, 87.62886597938146%, 19.019607843137255%, 0) 100%), radial-gradient(at 22.18308380998806% 28.815883456647807%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 23.893823589899867% 78.23378242545706%, hsla(0, 0%, 3.9215686274509802%, 1) 0%, hsla(0, 0%, 3.9215686274509802%, 0) 100%), radial-gradient(at 94.14853938815928% 77.22594844829406%, hsla(0, 0%, 12.941176470588237%, 1) 0%, hsla(0, 0%, 12.941176470588237%, 0) 100%);  
+  color: rgb(52, 178, 63);
+  font-family: 'myFont', sans-serif;
+}
+
+.titleContacts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: titleContacts;
+}
+
+.whatsapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: whatsapp;
+}
+
+.linkedin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: linkedin;
+}
+
+.curriculoEmail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: curriculoEmail;
+}
+
+.localizacao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: localizacao;
+}
+
+.iconsContacts{
+  width: 45px;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.containers{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "tecnologias tecnologias tecnologias"
+  "projects projects projects"
+  "contacts contacts contacts";
+}
+
+.projetos{
+  grid-area: projects;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.imgs{
+  width: 100%;
+}
+
+/*------------------------BREAK POINTS--------------------------*/
+
+
+/*COMPUTADORES*/
+@media (min-width: 1300px) and (min-height: 700px){
+  .containers{
+    grid-template-rows: 100vh 110vh 140vh 45vh;
+  }
+
+  .titleContacts{
+    font-size: 40px !important;
+  }
+
+  .tecnology{
+    gap: 90px !important;
+  }
+}
+
+@media (min-width: 1301px) and (max-height: 699px){
+  .containers{
+    grid-template-rows: 90vh 150vh 180vh 60vh;
+  }
+
+  .perfil{
+    margin-left: 10%;
+  }
+
+  .apresentation{
+    margin-top: 20px;
+  }
+
+  
+  .whoAmI{
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .titleContacts{
+    font-size: 40px !important;
+  }
+
+  .tecnology{
+    gap: 60px !important;
+  }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1300px){
+  .containers{
+    grid-template-rows: 90vh 150vh 150vh 55vh;
+  }
+
+  .apresentation{
+    margin-top: 20px;
+    font-size: 40px !important;
+  }
+
+  .apresentationTwo{
+    font-size: 23px;
+  }
+
+  .perfil{
+    margin-left: 5%;
+  }
+
+  .cardy{
+    width: 370px;
+    height: 350px;
+  }
+
+  .alinhamentoProjetos{
+    row-gap: 80px;
+    column-gap: 100px;
+  }
+
+  .card-title{
+    font-size: 30px;
+  }
+
+  .titleContacts{
+    font-size: 30px !important;
+  }
+
+  .tecnology{
+    gap: 35px !important;
+  }
+
+
+}
+
+/*TABLETS E NOTEBOOKS PEQUENOS*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .containers{
+      grid-template-rows: 90vh 150vh 330vh 55vh;
+    }
+
+    .perfil{
+      margin-left: 5px;
+      width: 250px;
+    }
+
+    .header{
+      gap: 5px;
+    }
+
+    .apresentation{
+      margin-top: 60px;
+      font-size: 30px !important;
+    }
+
+    .apresentationTwo{
+      font-size: 18px;
+    }
+
+    .whoAmI{
+      margin-top: 20px;
+      font-size: 11px;
+    }
+
+    .hardSkills{
+      justify-content: center;
+      align-items: center;
+      row-gap: 30px;
+      column-gap: 10px;
+    }
+
+    .tecnology{
+      gap: 9px !important;
+    }
+
+    .textFooter{
+      font-size: 14px !important;
+    }
+
+    .maps{
+      width: 220px !important;
+    }
+
+    .titleContacts{
+      font-size: 22px;
+    }
+
+
+}
+
+/*CELULARES*/
+@media (min-width: 480px) and (max-width: 767px){
+  .containers{
+    grid-template-rows: 110vh 140vh 270vh 60vh;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .perfil{
+    width: 170px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .apresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 25px !important;
+  }
+
+  .apresentationTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .whoAmI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-right: 0px !important;
+    margin-left: 45px;
+
+  }
+
+  .btnFirst{
+    margin-left: 3px;
+  }
+
+  .marginLeftButton{
+    margin-right: -40px;
+  }
+
+  .hardSkills{
+    row-gap: 10px;
+  }
+
+  .cardHabilidades{
+    width: 200px;
+    height: 150px;
+    gap: 10px;
+  }
+
+  .hablityComportamental{
+    font-size: 11px;
+  }
+
+  .hablityComportamentalText{
+    font-size: 10px;
+  }
+
+  .iconFontAwesome{
+    width: 25px;
+  }
+
+  .tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+  }
+
+  .escudos{
+    width: 50px;
+  }
+  .tecnology{
+    gap: 9px;
+    border-bottom: 1px solid rgb(88, 85, 85);
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  .cardy{
+    width: 300px;
+    height: 340px;
+  }
+
+  .card-title{
+    font-size: 25px;
+  }
+
+  .widthLine{
+    
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .maps{
+    display: none;
+  }
+
+  .localizacao{
+    display: none;
+  }
+
+  .myLocation{
+    display: none;
+  }
+
+  .rodape{
+    margin-top: 20px !important;
+    font-size: 15px;
+  }
+
+  .titleContacts{
+    font-size: 25px;
+  }
+
+  .iconsContacts{
+    width: 35px;
+  }
+
+  .hardSkills{
+    grid-template-columns: 200px 200px;
+  }
+  .subTitleTec{
+    border-top: 1px solid rgb(88, 85, 85);
+    width: 90%;
+    padding-top: 30px;
+    margin-top: 10px;
+  }
+
+}
